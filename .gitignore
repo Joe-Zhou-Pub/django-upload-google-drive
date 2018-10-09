@@ -1,0 +1,11 @@
+.*.s??
+*.tmp
+*.pyc
+db.sqlite3
+xrp2-files-app1-f17c69bdf918.json
+.DS_Store
+files/uploads/
+node_modules/
+fine-uploader/
+polls/
+static/

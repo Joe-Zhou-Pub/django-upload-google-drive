@@ -1,0 +1,16 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'files/style.css' %}">
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>File Uploaded Successfully</title>
+  </head>
+  <body>
+    <fieldset>
+      <p> {{ file_name }} has been uploaded! </p>
+    </fieldset>
+  </body>
+</html>
